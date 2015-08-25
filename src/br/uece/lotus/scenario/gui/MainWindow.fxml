@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="mMainVBox" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="518.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.uece.lotus.scenario.gui.MainWindowController">
+   <children>
+      <ScrollPane fx:id="mScrollPane" fitToHeight="true" fitToWidth="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" pannable="true" prefHeight="400.0" prefViewportHeight="1.0" prefWidth="800.0" VBox.vgrow="ALWAYS" />
+      <TableView fx:id="mTableView" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="165.0" prefWidth="800.0" VBox.vgrow="ALWAYS">
+        <columns>
+          <TableColumn fx:id="mCollumnName" prefWidth="126.0" text="Name" />
+          <TableColumn fx:id="mCollumnList" prefWidth="584.0" text="List Scenario" />
+          <TableColumn fx:id="mCollumnProbability" minWidth="0.0" prefWidth="89.0" text="Probability" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>
