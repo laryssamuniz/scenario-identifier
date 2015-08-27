@@ -95,7 +95,7 @@ public class ScenarioIdentifierPlugin extends Plugin implements ScenarioIdentifi
         mUserInterface = extensionManager.get(UserInterface.class);
         mProjectExplorer = extensionManager.get(ProjectExplorer.class);
 
-        mUserInterface.getMainMenu().newItem("Scenario Identifier/Select Scenarios").setWeight(1).setAction(mSelectScenario).create();
+        mUserInterface.getMainMenu().newItem("Scenario Identifier/Export Scenarios").setWeight(1).setAction(mSelectScenario).create();
 //        mUserInterface.getMainMenu().newItem("Scenario Identifier/About").setWeight(1).setAction(mAboutRunnable).create();
 
     }
