@@ -18,5 +18,10 @@
           <TableColumn fx:id="mCollumnProbability" minWidth="0.0" prefWidth="89.0" text="Probability" />
         </columns>
       </TableView>
+      <HBox alignment="TOP_RIGHT">
+         <children>
+            <Button fx:id="mButtonExport" alignment="BOTTOM_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false" text="Export XML" />
+         </children>
+      </HBox>
    </children>
 </VBox>
