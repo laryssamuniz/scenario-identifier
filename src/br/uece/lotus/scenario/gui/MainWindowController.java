@@ -279,7 +279,7 @@ public class MainWindowController implements Initializable {
                     content += "\t\t\t</transition>\n";
                 }
                
-                content += "\t\t</transitions>\n";
+                content += "\n\t\t</transitions>\n";
                 content += "</component>\n";
             }
             
